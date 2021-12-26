@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1108px;
+    width: 100%;
+    margin: auto;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    background: #2F343A;
+}
+.container_head {
+    max-width: 1110px;
+}
+.span_header {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+.span_header:nth-child(3) {
+    opacity: 0.5;
+}
+.span_header:nth-child(2) {
+    opacity: 0.5;
+}
+.lang {
+    max-width: 85px;
+    width: 100%;
+}
+.section_header {
+    padding: 16px 0;
+    background: #C8A35F;
+}
+.logo_block {
+    max-width: 352px;
+    width: 100%;
+}
+.section_nav {
+    padding: 27px 0;
+}
+.office_block {
+    max-width: 132px;
+    width: 100%;
+}
+.office_span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.logo_img {
+    max-width: 160px;
+    width: 100%;
+}
+.office_img {
+    max-width: 25px;
+    widows: 100%;
+}
+.line {
+    border: 1px solid #F2F2F2;
+    min-height: 46px;
+    width: 0;
+}
+.nav_block {
+    max-width: 412px;
+    width: 100%;
+}
+.nav {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.section_truck {
+    padding: 200px 0 50px 0;
+    background: url(../img/background.png) no-repeat bottom;
+}
+.truck_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.width_block {
+    min-height: 311px;
+}
+.title_width {
+    min-height: 155px;
+}
+.desc {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.desc_truck {
+    max-width: 730px;
+    text-align: center;
+}
+.main_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+.section {
+    padding: 120px 0;
+}
+.section_europe {
+    background: linear-gradient(to right,#393F47 40%, #2F343A 40%, #2F343A 60%, #393F47 60%);
+}
+.europe_block {
+    min-height: 321px;
+}
+.europe_column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 445px;
+    width: 100%;
+}
+.title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.button {
+    background: #C8A35F;
+    padding: 18px 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.gold_line {
+    background: #C8A35F;
+    max-width: 90px;
+    width: 100%;
+    min-height: 6px;
+    margin-bottom: 40px;
+}
+.desc_europe {
+    margin: 30px 0 50px 0;
+}
+.truck_img {
+    max-width: 445px;
+    width: 100%;
+}
+.nav_menu {
+    margin-top: 30px;
+    max-width: 161px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 285px;
+}
+.span_nav {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #C8A35F;    
+}
+.arrow {
+    position: relative;
+    max-width: 65px;
+    width: 100%;
+}
+.arrow_line {
+    border: 3px solid #C8A35F;
+    width: 100%;
+}
+.top {
+    border: 9px solid #C8A35F;
+    transform: scale(0.25) translateX(110px) translateY(30px) rotate(45deg);
+}
+.bottom {
+    border: 9px solid #C8A35F;
+    transform: scale(0.25) translateX(110px) translateY(-30px) rotate(135deg);
+}
+.next_block {
+    max-width: 161px;
+    width: 100%;
+}
+.before_block {
+    max-width: 161px;
+    width: 100%;
+}
+.top_b {
+    border: 9px solid #C8A35F;
+    transform: scale(0.25) translateX(-110px) translateY(30px) rotate(-45deg);
+}
+.bottom_b {
+    border: 9px solid #C8A35F;
+    transform: scale(0.25) translateX(-110px) translateY(-30px) rotate(-135deg);
+}
+.service_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.avia {
+    position: relative;
+    width: 25%;
+    border: 1px solid #2F343A;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #393F47 url(../img/white.png) no-repeat center top 55px;
+    transition-duration: 300ms;
+    
+}
+.avia_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.avia_span {
+    margin-top:  128px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.elipse {
+    position: absolute;
+    max-width: 70px;
+    min-height: 70px;
+    width: 100%;
+    top: 35px;
+    border-radius: 100px;
+    background: #FFFFFF;
+    opacity: 0;
+    transition-duration: 300ms;
+}
+.title_service {
+    margin-bottom: 60px;
+}
+.avia:hover .elipse {
+    opacity: 1;
+}
+.avia:hover {
+    background: #C8A35F url(../img/white.png) no-repeat center top 55px;
+}
+.plane_after {
+    position: absolute;
+    top: 55px;
+    opacity: 0;
+    transition-duration: 300ms;
+}
+.avia:hover .plane_after {
+    opacity: 1;
+}
+.section_company {
+    padding: 80px 0;
+    background: linear-gradient(to right,#2F343A 40%, #393F47 40%, #393F47 60%, #2F343A 60%);
+}
+.desc_company {
+    margin-top: 30px;
+}
+.company_column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 445px;
+    width: 100%;
+}
+.pics {
+    max-width: 600px;
+    width: 100%;
+    min-height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.pic {
+    max-width: 200px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0,25px solid #C8A35F
+}
+.pic:nth-child(3) {
+    background: #fff url(../img/truckFone.png) no-repeat center;
+}
+.pic:nth-child(4) {
+    background: #fff url(../img/truckFone.png) no-repeat center;
+}
+.title_pic {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2F343A;    
+}
+.strong_pic {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 10px 0 15px 0;
+}
+.span_pic {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;    
+}
+.section_pause {
+    padding: 60px 0;
+}
+.section_footer {
+    padding: 60px 0 55px 0;
+    background: #C8A35F;
+}
+.footer_block2 {
+    max-width: 516px;
+    width: 100%;
+    min-height: 36px;
+    align-items: flex-end;
+}
+.footer_block1 {
+    max-width: 480px;
+    width: 100%;
+    min-height: 36px;
+}
+.footer_nav_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 36px;
+    max-width: 291px;
+    width: 100%;
+}
+.p_footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+.p_footer_black {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2F343A;
+}
+.span_footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #2F343A;
+}
+.map {
+    min-height: 450px;
+    width: 100%;
+}
